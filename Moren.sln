@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Moren", "Muren\Muren.vcxproj", "{C4C37A28-9CEC-4DA9-8408-F981B7815F18}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MWEditor", "MWEditor\MWEditor.vcxproj", "{3417710F-2D25-412F-8590-E137BE2A3774}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3417710F-2D25-412F-8590-E137BE2A3774}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3417710F-2D25-412F-8590-E137BE2A3774}.Debug|Win32.Build.0 = Debug|Win32
+		{3417710F-2D25-412F-8590-E137BE2A3774}.Release|Win32.ActiveCfg = Release|Win32
+		{3417710F-2D25-412F-8590-E137BE2A3774}.Release|Win32.Build.0 = Release|Win32
+		{C4C37A28-9CEC-4DA9-8408-F981B7815F18}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C4C37A28-9CEC-4DA9-8408-F981B7815F18}.Debug|Win32.Build.0 = Debug|Win32
+		{C4C37A28-9CEC-4DA9-8408-F981B7815F18}.Release|Win32.ActiveCfg = Release|Win32
+		{C4C37A28-9CEC-4DA9-8408-F981B7815F18}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

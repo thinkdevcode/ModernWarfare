@@ -1,0 +1,9 @@
+[.\Developer.cpp:8]: (style) Member variable not initialized in the constructor 'CDeveloper::_CoordBuffer'
+[.\Developer.cpp:8]: (style) Member variable not initialized in the constructor 'CDeveloper::_FPSBuffer'
+[.\Interface.cpp:8]: (style) Member variable not initialized in the constructor 'CInterface::m_singleBuffer'
+[.\Interface.cpp:8]: (style) Member variable not initialized in the constructor 'CInterface::m_SysMsgFlag'
+[.\Interface.cpp:17]: (possible style) Pre-Incrementing variable 'UnitIt' is preferred to Post-Incrementing
+[.\MapManager.cpp:8]: (style) Member variable not initialized in the constructor 'CMapManager::_ScrollTime'
+[.\Unit.cpp:8]: (style) Member variable not initialized in the constructor 'Unit::m_IsMoving'
+[.\Unit.cpp:17]: (style) Member variable not initialized in the constructor 'Unit::m_IsMoving'
+[.\UnitManager.cpp:17]: (possible style) Pre-Incrementing variable 'UnitIt' is preferred to Post-Incrementing

@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Game Objects">
+      <UniqueIdentifier>{711f7a6b-bf69-4d3d-85ab-af8d4de149c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects\Interface">
+      <UniqueIdentifier>{aeb0b227-b452-454d-9ec4-bed20b5a6451}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects\Developer">
+      <UniqueIdentifier>{2a4fd7e8-6e58-4442-8c81-144892441184}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects\Map">
+      <UniqueIdentifier>{7bba735a-146a-4769-8b20-3a0d00c900bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects\Log">
+      <UniqueIdentifier>{9551d341-2529-44e5-9d5d-7e06d75dccfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects\Object">
+      <UniqueIdentifier>{bd66d8d4-386f-4a41-86e2-050dfea48eeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects\Object\Unit">
+      <UniqueIdentifier>{de8b82ac-c9f6-4435-ad8f-4be132f2686f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects\Game State">
+      <UniqueIdentifier>{8c1a79cf-e400-49d9-92a1-c6a88f359582}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects\Game State\States">
+      <UniqueIdentifier>{674550ba-92df-4f9e-afc4-cec02d1f8f55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects\Game State\States\Singleplayer">
+      <UniqueIdentifier>{5542c3d5-82b0-4afd-b928-86887364e2a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects\Game State\States\Multiplayer">
+      <UniqueIdentifier>{e8a1e546-9eda-414d-bf40-769f2e224352}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects\Game State\States\Main Menu">
+      <UniqueIdentifier>{30415162-f511-461c-8676-a81e1bc14ecc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects\Game State\States\Options">
+      <UniqueIdentifier>{8292b838-31d3-47ad-bcc1-900ff25978be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects\Game State\States\Pause Menu">
+      <UniqueIdentifier>{d6babf6e-e2fc-4eaf-92c0-d361f2bc5f38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects\Game State\States\Loading Screen">
+      <UniqueIdentifier>{5f78dada-dcb0-442f-b20b-9fb7561f78bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects\Game State\States\Splash">
+      <UniqueIdentifier>{8803bf4c-9d20-434c-b505-8779f0b340b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GTP">
+      <UniqueIdentifier>{5947f6c9-4335-44ba-8446-5839e16499ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GTP\Math">
+      <UniqueIdentifier>{20a619f2-b68d-412b-9094-4464b16e58fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GTP\Math\Vector2">
+      <UniqueIdentifier>{5d9c186f-403f-4af9-a0e6-16d54ae6587d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Structures">
+      <UniqueIdentifier>{81b372f8-0dc4-4b6a-baf8-c8828109e982}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map System">
+      <UniqueIdentifier>{e5abb946-9be7-413d-b34f-cf8dadfda3ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map System\Height Map">
+      <UniqueIdentifier>{0f9e64a5-a3cc-47c0-9f3b-accfe45eac40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map System\Height Map\Data Structures">
+      <UniqueIdentifier>{5cdc9df7-4954-4853-ab67-bcd5c75ffcad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map System\Terrain Map">
+      <UniqueIdentifier>{ee3cf2cd-5a67-4350-94ee-fa10bdcca2cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers">
+      <UniqueIdentifier>{38c1f012-8ff5-4f12-8062-57d296443caf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\Unit Manager">
+      <UniqueIdentifier>{bd9a1781-cf2c-40f4-b408-d23f041363c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\State Manager">
+      <UniqueIdentifier>{728cfc19-c354-481b-b88d-921da2e3290a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include=".\Moren.cpp">
+      <Filter>Main Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\Interface.cpp">
+      <Filter>Game Objects\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include=".\Developer.cpp">
+      <Filter>Game Objects\Developer</Filter>
+    </ClCompile>
+    <ClCompile Include=".\MapManager.cpp">
+      <Filter>Game Objects\Map</Filter>
+    </ClCompile>
+    <ClCompile Include=".\Log.cpp">
+      <Filter>Game Objects\Log</Filter>
+    </ClCompile>
+    <ClCompile Include=".\Object.cpp">
+      <Filter>Game Objects\Object</Filter>
+    </ClCompile>
+    <ClCompile Include=".\Unit.cpp">
+      <Filter>Game Objects\Object\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include=".\GameState.cpp">
+      <Filter>Game Objects\Game State</Filter>
+    </ClCompile>
+    <ClCompile Include=".\MainMenu.cpp">
+      <Filter>Game Objects\Game State\States\Main Menu</Filter>
+    </ClCompile>
+    <ClCompile Include=".\Vector2.cpp">
+      <Filter>GTP\Math\Vector2</Filter>
+    </ClCompile>
+    <ClCompile Include=".\HeightMap.cpp">
+      <Filter>Map System\Height Map</Filter>
+    </ClCompile>
+    <ClCompile Include=".\UManager.cpp">
+      <Filter>Managers\Unit Manager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include=".\Interface.h">
+      <Filter>Game Objects\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include=".\Developer.h">
+      <Filter>Game Objects\Developer</Filter>
+    </ClInclude>
+    <ClInclude Include=".\MapManager.h">
+      <Filter>Game Objects\Map</Filter>
+    </ClInclude>
+    <ClInclude Include=".\Log.h">
+      <Filter>Game Objects\Log</Filter>
+    </ClInclude>
+    <ClInclude Include=".\Object.h">
+      <Filter>Game Objects\Object</Filter>
+    </ClInclude>
+    <ClInclude Include=".\Unit.h">
+      <Filter>Game Objects\Object\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include=".\GameState.h">
+      <Filter>Game Objects\Game State</Filter>
+    </ClInclude>
+    <ClInclude Include=".\MainMenu.h">
+      <Filter>Game Objects\Game State\States\Main Menu</Filter>
+    </ClInclude>
+    <ClInclude Include=".\Vector2.h">
+      <Filter>GTP\Math\Vector2</Filter>
+    </ClInclude>
+    <ClInclude Include=".\UnitStats.h">
+      <Filter>Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include=".\WinMainData.h">
+      <Filter>Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include=".\HeightMap.h">
+      <Filter>Map System\Height Map</Filter>
+    </ClInclude>
+    <ClInclude Include=".\FileHeader.h">
+      <Filter>Map System\Height Map\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include=".\InfoHeader.h">
+      <Filter>Map System\Height Map\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include=".\UManager.h">
+      <Filter>Managers\Unit Manager</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

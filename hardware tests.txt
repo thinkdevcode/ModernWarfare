@@ -1,0 +1,14 @@
+System 1:
+ - Intel Core2Duo E8400 3.0ghz
+ - NVIDIA GeForce 9600GT
+ - Windows 7 x64 (7600 RM)
+
+System 2:
+ - AMD Phenom 9600
+ - NVIDIA GeForce 8800GTX
+ - Windows XP x86 (Home Edition)
+
+System 3:
+ - AMD Phenom 9600
+ - NVIDIA GeForce 8800GTX
+ - Windows Vista x64 (SP2)
